@@ -53,14 +53,13 @@ function triangleArea() {
 document.write("<br>");
 */
 
-const PI = 3.14159265358979323846;
-
+//const PI = 3.14159265358979323846;
 // function to calculate the circumference of circle
 function circumference() {
 
     var radius = parseInt(document.getElementById("radius1").value);
 
-    let circumference = 2 * PI * radius;
+    let circumference = 2 * Math.PI * radius;
 
     document.getElementById("displayCircumference").innerHTML = circumference.toFixed(6);
     /*return circumference;*/
@@ -74,7 +73,7 @@ function circleArea() {
 
     var radius = parseInt(document.getElementById("radius2").value);
 
-    let circleArea = PI * Math.pow(radius, 2);
+    let circleArea = Math.PI * Math.pow(radius, 2);
 
     document.getElementById("displaySurfaceArea").innerHTML = circleArea.toFixed(6);
   /*  return area;*/
