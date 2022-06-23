@@ -11,13 +11,7 @@ function findDiagonal() {
      var diagonal = Math.sqrt(2) * side;
 
      document.getElementById("displayDiagonal").innerHTML = diagonal.toFixed(6);
-   /* return Math.sqrt(2) * side;*/
 }
-
-/*
-document.write("The diagonal of square = " + findDiagonal(9).toFixed(6) + "<br>");
-*/
-
 
 //Find  Triangle Area
 //Area = sqrt(s*(s-a)*(s-b)*(s-c))
@@ -44,16 +38,11 @@ function triangleArea() {
 
         var area = Math.sqrt(s * ((s - side1) * (s - side2) * (s - side3)));
 
-       /* return area;*/
        document.getElementById("displayArea").innerHTML = area.toFixed(6);
     }
 }
 
-/*document.write("The area of triangle = " + triangleArea(5, 6, 7).toFixed(6));
-document.write("<br>");
-*/
 
-//const PI = 3.14159265358979323846;
 // function to calculate the circumference of circle
 function circumference() {
 
@@ -65,8 +54,6 @@ function circumference() {
     /*return circumference;*/
 }
 
-/*document.write("The circumference = " + circumference(4).toFixed(6) + "<br>");*/
-
 
 // function to calculate the area of circle
 function circleArea() {
@@ -76,7 +63,5 @@ function circleArea() {
     let circleArea = Math.PI * Math.pow(radius, 2);
 
     document.getElementById("displaySurfaceArea").innerHTML = circleArea.toFixed(6);
-  /*  return area;*/
+  
 }
-
-/*document.write("The area of circle = " + circleArea(4).toFixed(6));*/
