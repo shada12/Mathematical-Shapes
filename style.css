@@ -3,11 +3,14 @@ html{
     background-color: rgb(213, 225, 233);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .header{
-    background-image: url(img/Capture2.PNG);
-    max-width: 100%;
-    max-height: 100%;
-    background-size: cover;
+    background-image: linear-gradient(rgba(37, 53, 101, 1), rgba(54, 111, 155, 1));
     text-align: center;
     height: 12rem;
 }
@@ -37,6 +40,7 @@ p, span{
 .maindiv{
 
     text-align: center;
+    padding-bottom: 2rem;
 }
 
 button:hover {
