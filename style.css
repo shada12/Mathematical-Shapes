@@ -1,5 +1,4 @@
 html{
-
     background-color: rgb(213, 225, 233);
 }
 
@@ -27,23 +26,20 @@ h4{
 }
 
 button{
-
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
 p, span{
-
     color: blue;
 }
 
 .maindiv{
-
     text-align: center;
     padding-bottom: 2rem;
 }
 
 button:hover {
-       border-radius: 5px;
+    border-radius: 5px;
     background-color: rgb(121, 166, 240);
 }
