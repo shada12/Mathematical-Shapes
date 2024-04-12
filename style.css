@@ -10,7 +10,7 @@ html{
 }
 
 .header{
-    background-image: linear-gradient(rgba(37, 53, 101, 1), rgba(54, 111, 155, 1));
+    background-image: linear-gradient(rgb(86, 126, 157), rgb(24, 34, 65));
     text-align: center;
     height: 12rem;
 }
